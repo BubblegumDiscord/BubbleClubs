@@ -1,0 +1,25 @@
+{
+  "name": "bubbleclubs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BubblegumDiscord/BubbleClubs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BubblegumDiscord/BubbleClubs/issues"
+  },
+  "homepage": "https://github.com/BubblegumDiscord/BubbleClubs#readme",
+  "dependencies": {
+    "discord-akairo": "^7.5.4",
+    "discord.js": "^11.3.2",
+    "standard": "^11.0.1",
+    "winston": "^2.4.1"
+  }
+}
