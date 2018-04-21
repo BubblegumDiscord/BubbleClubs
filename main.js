@@ -7,6 +7,7 @@ const noop = () => { }
 noop(Client, Message, Command)
 
 global.conf = require('./data/config.json')
+global.bubblegum = "334629377440481280"
 
 const client = new AkairoClient({
   ownerID: '193053876692189184',
@@ -19,6 +20,12 @@ client.login(global.conf.token).then(() => {
     bot_id: client.user.id,
     connected_guilds: client.guilds.size
   })
+})
+
+client.on("ready", () => {
+  logger.info("Adding multicolouredrole listener")
+  require("./src/multicoloredrole")(client)
+  logger.debug("done adding it")
 })
 
 client.commandHandler.on('commandStarted',
@@ -35,3 +42,9 @@ client.commandHandler.on('commandStarted',
       message: message.id
     })
   })
+
+
+process.on('unhandledRejection', (reason, p) => {
+  console.log('Unhandled Rejection at: Promise', p, 'reason:', reason);
+  // application specific logging, throwing an error, or other logic here
+});
