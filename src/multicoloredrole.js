@@ -2,8 +2,8 @@ const role = '437275430895222784'
 const log = require("winston");
 const discord = require("discord.js");
 const { Client } = require("discord.js");
-const update = 3000;
-const steps = 18;
+const update = 4 * 60 * 1000;
+const steps = 10;
 
 /**
      * Converts an HSL color value to RGB. Conversion formula
