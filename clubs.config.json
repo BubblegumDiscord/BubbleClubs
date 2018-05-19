@@ -1,0 +1,6 @@
+{
+  "apps" : [{
+    "name"        : "Clubs",
+    "script"      : "./main.js",
+  }]
+}
