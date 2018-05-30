@@ -1,0 +1,62 @@
+[
+    {
+        "role": "451357495802462220",
+        "cost": 2000,
+        "club": "Gum",
+        "order": 1
+    },
+    {
+        "role": "451374568527888414",
+        "cost": 4000,
+        "club": "Gum",
+        "order": 2
+    },
+    {
+        "role": "451376642829320202",
+        "cost": 8000,
+        "club": "Gum",
+        "order": 3
+    },
+    {
+        "role": "451376664492900354",
+        "cost": 12000,
+        "club": "Gum",
+        "order": 4
+    },
+    {
+        "role": "451376669199171594",
+        "cost": 0,
+        "club": "Gum",
+        "order": 5
+    },
+    {
+        "role": "451376905242017832",
+        "cost": 2000,
+        "club": "Lollipop",
+        "order": 1
+    },
+    {
+        "role": "451376907758600202",
+        "cost": 4000,
+        "club": "Lollipop",
+        "order": 2
+    },
+    {
+        "role": "451376910434435072",
+        "cost": 8000,
+        "club": "Lollipop",
+        "order": 3
+    },
+    {
+        "role": "451376930063777792",
+        "cost": 12000,
+        "club": "Lollipop",
+        "order": 4
+    },
+    {
+        "role": "451376932228038656",
+        "cost": 0,
+        "club": "Lollipop",
+        "order": 5
+    }
+]

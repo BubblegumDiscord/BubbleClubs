@@ -34,7 +34,7 @@ class JoinCommand extends Command {
       var toRemoveRoles = []
       toRemoveRoles = toRemoveRoles.concat(flavors)
       toRemoveRoles = toRemoveRoles.concat(Object.keys(clubs).map(k => clubs[k]))
-
+      toRemoveRoles = toRemoveRoles.concat(require("../../../data/traits.json").map(t => t.role))
       toRemoveRoles.forEach(async roleToRemove => {
         if (message.member.roles.has(roleToRemove)) {
           log.silly(`Removed the role ${roleToRemove} from ${message.member.id}.`)

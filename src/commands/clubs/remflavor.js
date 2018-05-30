@@ -34,7 +34,7 @@ class JoinCommand extends Command {
       )
     }
     await message.member.removeRole(flavor)
-    log.silly(`Added the ${flavor.id} (${flavor.name}) role to ${message.member.id}.`)
+    log.silly(`Removed the ${flavor.id} (${flavor.name}) role to ${message.member.id}.`)
     await message.channel.send(
       new discord.RichEmbed()
         .setTitle(`I've removed the ${flavor.name} role`)

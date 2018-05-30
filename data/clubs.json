@@ -1,10 +1,14 @@
 [
   {
     "name": "Lollipop",
-    "role": "414380672698810368"
+    "role": "414380672698810368",
+    "girl_image": "https://cdn.discordapp.com/attachments/334794306898493450/438458059984076800/Lollipop_Club_Girl.jpg",
+    "girl": "Illia"
   },
   {
     "name": "Gum",
-    "role": "414380333669285888"
+    "role": "414380333669285888",
+    "girl_image": "https://cdn.discordapp.com/attachments/334794306898493450/438457965712900116/Gum_Club_Girl_vr2.jpg",
+    "girl": "Eva"
   }
 ]
