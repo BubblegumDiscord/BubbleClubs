@@ -90,7 +90,7 @@ class TraitsCommand extends Command {
     message.member.addRole(trait_role)
     message.channel.send(
       new discord.RichEmbed()
-      .setTitle("I've given you the " + trait_role.name + " trait" + (traitToBuy.cost ? "and taken away " + traitToBuy.cost + " sugar!" : ""))
+      .setTitle("I've given you the " + trait_role.name + " trait" + (traitToBuy.cost ? " and taken away " + traitToBuy.cost + " sugar!" : ""))
       .setColor(0x6b3fa0)
       .setDescription("Enjoy")
       .setThumbnail(theirClub.girl_image)

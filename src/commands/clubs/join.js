@@ -52,7 +52,7 @@ class JoinCommand extends Command {
           .setTitle(`You are now part of the ${roleName} club!`)
           .setDescription('fancy!')
           .setColor(message.member.displayHexColor)
-          .addField(`To see the different flavors`, `just type \`!flavors\` and you'll see a list and instructions to join them`)
+          .addField(`To see the different flavors`, `just type \`!flavors\` and you'll see a list and instructions to join them - To see all available traits type \`!traits\`!`)
           .setTimestamp(new Date())
           .setAuthor(message.author.tag, message.author.displayAvatarURL)
       )
