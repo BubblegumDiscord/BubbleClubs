@@ -26,6 +26,9 @@ client.on("ready", () => {
   logger.info("Adding multicolouredrole listener")
   require("./src/multicoloredrole")(client)
   logger.debug("done adding it")
+  setInterval(() => {
+    require("./src/helpers/vcaward")(client)
+  }, 10000)
 })
 
 client.commandHandler.on('commandStarted',
